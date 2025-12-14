@@ -171,9 +171,6 @@ body {
     text-decoration: none;
 }
 
-.footer ul a:hover {
-    color: var(--color-primary);
-}
 
 .social-links {
     display: flex;
@@ -184,11 +181,6 @@ body {
 .social-links a {
     color: #9CA3AF;
 }
-
-.social-links a:hover {
-    color: var(--color-primary);
-}
-
 @media (min-width: 768px) {
     .footer-content {
         grid-template-columns: repeat(4, 1fr);
@@ -336,15 +328,22 @@ body {
 }
 
 .title-section h1 {
+    text-align: center;
     font-size: 2.25rem;
     font-weight: 800;
     color: var(--color-dark);
 }
 
 .title-section p {
+    text-align: center;
     font-size: 1.25rem;
     color: var(--color-gray);
     margin-top: 0.25rem;
+}
+.app-count {
+  color: purple;
+  font-weight: bold; /* optional to make it stand out */
+  font-size: 1.1rem; /* optional, adjust size if needed */
 }
 
 /* Home Page Banner */

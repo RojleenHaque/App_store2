@@ -56,15 +56,15 @@ const AllAppsPage = () => {
       
       {/* Title Section */}
       <div className="title-section">
-        <h1>The Catalog</h1>
-        <p>Explore all {allApps.length} applications in the HeroApp Store.</p>
+        <h1>Our All Applications</h1>
+        <p>Explore all the apps on the market developed by uss. We code for millions {allApps.length} applications in the HeroApp Store.</p>
       </div>
 
       {/* Search, States, and Sort */}
       <div className="search-filter-bar">
         {/* Total Apps Count */}
         <p className="app-count">
-          Total Apps: <span>{filteredAndSortedApps.length}</span>
+       <span>{filteredAndSortedApps.length}</span>  Apps Found
         </p>
         
         <div className="search-controls">
@@ -80,18 +80,7 @@ const AllAppsPage = () => {
             <FaSearch className="search-icon" />
           </div>
 
-          {/* Sort Dropdown */}
-          <div className="sort-select-container">
-            <select
-              value={sortBy}
-              onChange={handleSortChange}
-              className="sort-select"
-            >
-              <option value="downloads-desc">Downloads (High-Low)</option>
-              <option value="downloads-asc">Downloads (Low-High)</option>
-            </select>
-            <FaChevronDown className="sort-icon" />
-          </div>
+    
         </div>
       </div>
 
