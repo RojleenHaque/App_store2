@@ -194,6 +194,14 @@ body {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+.footer-name{
+    font-size: 2rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #be79d9, #8e44ad); /* gradient */
+    -webkit-background-clip: text; /* clip background to text */
+    -webkit-text-fill-color: transparent; /* make text itself transparent */
+    text-decoration: none;
+}
 
 /* --- App Card Styles --- */
 .app-card {

@@ -10,7 +10,7 @@ const Footer = () => {
           
           {/* Logo and Tagline */}
           <div>
-            <h3>HeroApp Store</h3>
+            <h3 className='footer-name'>HeroApp Store</h3>
             <p className="text-sm">
               Discover, download, and dominate. Your one stop for the best mobile applications.
             </p>
