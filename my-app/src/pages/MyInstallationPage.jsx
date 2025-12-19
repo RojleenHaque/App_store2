@@ -16,7 +16,8 @@ const MyInstallationPage = () => {
     <div className="page-section container">
       
       <div className="title-section">
-        <h1>My Installations</h1>
+        <h1>Your Installed Apps</h1>
+        <p>Explore all the trending apps on the market developed by us</p>
         <p>
           You have <span className="text-primary">{installedApps.length}</span> apps currently installed.
         </p>

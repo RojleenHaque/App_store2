@@ -10,20 +10,20 @@ const AppDetailsPage = () => {
   const id = parseInt(appId);
   const { findAppById, installApp, isAppInstalled } = useAppContext();
   
-  // 1. Find App
+  
   const app = findAppById(id);
   
   // Handle App Not Found (Challenge Requirement)
   if (!app) {
     return (
       <div className="not-found-container">
-        <h1 className="text-red">404</h1>
-        <h2 className="text-red-500">App Not Found!</h2>
+        <img className="img" src="/src/assets/error-404.png"></img>
+        <h2 className="text-red-500">Oops, page not found!</h2>
         <p>
-          The application you are looking for does not exist in our store.
+          The application you are looking for is not available.
         </p>
         <Link to="/apps" className="banner-btn primary-btn">
-            Browse All Apps
+            Go Back
         </Link>
       </div>
     );

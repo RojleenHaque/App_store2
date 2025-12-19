@@ -506,9 +506,11 @@ body {
 }
 
 //* Top Apps Section */
-.top-apps-section {
-    margin-top: 4rem;
+.center-text {
+  text-align: center;
 }
+
+
 
 /* Header */
 .apps-header {
@@ -589,7 +591,6 @@ body {
 .app-count {
     font-size: 1.125rem;
     font-weight: 500;
-    color: var(--color-primary);
     margin-bottom: 1rem;
 }
 
@@ -870,11 +871,7 @@ body {
     padding: 0 1rem;
 }
 
-.not-found-container h1 {
-    font-size: 6rem;
-    font-weight: 900;
-    color: var(--color-primary);
-}
+
 
 .not-found-container h2 {
     font-size: 2.25rem;
